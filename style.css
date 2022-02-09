@@ -65,51 +65,8 @@ rect.active{
 rect.white{
     fill: black;
 }
-.Berik-Chen{
-    position: relative;
-    margin: 35px auto;
-    max-width: 324px;
-}
-.chen{
-    max-width: 354px;
-    min-height: 162px;
-    width: 100%;
-    position: absolute;
-    background: url(img/chenEblo.jpeg);
-}
-.berikbol{
-    background: url(img/berikEblo.jpeg);
-    width: 180px;
-    min-height: 162px;
-    position: absolute;
-}
-#polzunok{
-    z-index: 1000;
-    position: absolute;
-    background:transparent;
-    padding: 80px 0;
-    border: solid 1px #82CFD0;
-    border-radius: 8px;
-    height: 7px;
-    width: 356px;
-    outline: none;
-    transition: background 450ms ease-in;
-    -webkit-appearance: none;
-}
-input[type=range]::-webkit-slider-thumb {
-    height: 100%;
-    min-height: 162px;
-    z-index: 100;
-    box-shadow: 0px 0px 0px #000000;
-    border: 0px solid #000000;
-    height: 20px;
-    width: 39px;
-    border-radius: 7px;
-    background: #65001C;
-    cursor: pointer;
-    -webkit-appearance: none;
-    margin-top: -3.5px;
-}
+
+
 .burger__line {
     transition: 0.3s;
     width: 30px;
@@ -595,4 +552,11 @@ button{
     height: 169px;
     clip-path: circle(75px at center);
     transform: translate(var(--x), var(--y));
+}
+
+@media (max-width: 768px) {
+    .block__main__headline .img__out--block{
+        display: none;
+    }
+    
 }
