@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="header__content">
+                    <svg width="407" height="89" viewBox="0 0 407 89" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0_64_30" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="407" height="89">
+                        <rect width="407" height="89" fill="url(#pattern0)"/>
+                        </mask>
+                        <g mask="url(#mask0_64_30)">
+                        <rect id="rect" x="-18" y="-23" width="456" height="136" fill="white"/>
+                        </g>
+                        <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_64_30" transform="translate(-0.00288351) scale(0.000648882 0.00296736)"/>
+                        </pattern>
+                        <image id="image0_64_30" width="1550" height="337" xlink:href="data:image/png;base64,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"/>
+                        </defs>
+                        
+                        </svg>
+                
+                        <div class="burger" onclick="burgerMenu(this)">
+                            <div class="burger__line"></div>
+                            <div class="burger__line"></div>
+                            <div class="burger__line"></div>
+                        </div>
+
+                        <div class="burger__on__click">
+                            <div class="container">
+                                <div class="burger__content">
+                                    <a href="#">Банки будущего</a>
+                                    <a href="#">Кешбэк уже не в моде?</a>
+                                    <a href="#">Счастливая жизнь на пенсии</a>
+                                    <a href="#">Безусловный базисный доход</a>
+                                    <a href="#">Депозиты vs акции</a>
+                                    <a href="#">Удалённая идентификация</a>
+                                    <a href="#"> Как победить мошенников</a>
+                                    <a href="#">Своё дело — с чего начать</a>
+                                </div>
+                            </div>
+                        </div>
+
+                            
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="main__block__chaos">
+        <div class="container">
+            <div class="double__flex">
+                <div class="block__chaos">
+
+             
+        
+                    <div class="block__text">ВЕЧЕРНИЙ КЛАБХАУС</div>
+                    <div class="headline__span">Отктровенные дискуссии в клабхаусе с экспертами банковской сферы о мировом кризисе, будущем экономики и как это все повлияет на нашу жизнь.</div> 
+                        
+                    </div>   
+                        <div class="white__block__chaos">
+                            <div class="chaos__block__first__step">
+                                <img src="img/Vector.png">
+                                <div class="chaos__block_spans">
+                                    <span class="anons">Анонс</span>
+                                    <span>2 апреля</span>
+                                    <span>20:00 МСК</span>
+                                </div>
+                                <button>Добавить в календарь</button>
+                            </div>
+                            <div class="chaos__block_second__step">
+                                <div class="second__step__text">Банки будущего — какими они будут?</div>
+                                <span class="second__step__span">Как технологии изменят банки? Останутся ли банковские отделения? Нужно ли отказываться от пластиковых карт?                                </span>
+                                <div class="second__img__block">
+                                    <div class="block_img">
+                                        <img src="img/imgperson.png">
+                                        <span>банк «Открытие»</span>
+                                    </div>
+                                    <div class="block_img">
+                                        <img src="img/imgperson2.png">
+                                        <span>банк 131</span>
+                                    </div>
+                                    <div class="block_img">
+                                        <img src="img/imgperson3.png">
+                                        <span>Longevity Card</span>
+                                    </div>
+                                    <div class="block_img">
+                                        <img src="img/imgperson4.png">
+                                        <span>Facancy</span>
+                                    </div>
+                                </div>
+                                <div class="outline__text">
+                                    За самый интересный вопрос подарим книгу от «Открытия» и худи от «Коммерсанта»
+                                </div>
+                            </div>
+                        </div>
+            </div>
+
+                <div class="absolute__img" >
+                    <img src="img/absolutepng.png">
+                </div>
+            
+        </div>
+
+    </div>
+
+    <div class="block__buttons"  id='org_div1'>
+        <div class="container" >
+            <span class="block__buttons__headline">Записи эфиров</span>
+            <div class="block__main_buttons">
+                <button onclick="addBlock(this)">Банки будущего</button>
+                <button onclick="addBlock(this)">Кешбэк уже не в моде?</button>
+                <button onclick="addBlock(this)">Счастливая жизнь на пенсии</button>
+                <button onclick="addBlock(this)">Безусловный базисный доход</button>
+                <button onclick="addBlock(this)">Депозиты vs акции</button>
+                <button onclick="addBlock(this)">Удалённая идентификация</button>
+                <button onclick="addBlock(this)"> Как победить мошенников</button>
+                <button onclick="addBlock(this)">Своё дело — с чего начать</button>
+            </div>
+            <div class="main__block" >
+                <div class="block__title">Банки будущего</div>
+                <div class="block__main__headline">   
+                    <div class="block__main__content">                       
+                        <div class="main__persons">
+                            <div class="block_img">
+                                <img src="img/imgperson.png">
+                                <span>Александр Пятигорский</span>
+                                <span>банк «Открытие»</span>
+                            </div>
+                            <div class="block_img">
+                                <img src="img/imgperson2.png">
+                                <span>Анна  Кузьмина</span>
+                                <span>банк 131</span>
+                            </div>
+                            <div class="block_img">
+                                <img src="img/imgperson3.png">
+                                <span>Сергей Баласанян</span>
+                                <span>Longevity Card</span>
+                            </div>
+                            <div class="block_img">
+                                <img src="img/imgperson4.png">
+                                <span>Алена Владимирсая</span>
+                                <span>Facancy</span>
+                            </div>
+                        </div>
+                        <div class="main__text__person">Противоположная точка зрения подразумевает, что интерактивные прототипы и по сей день остаются уделом либералов, которые жаждут быть обнародованы. Являясь всего лишь частью общей картины, тщательные исследования конкурентов, превозмогая сложившуюся непростую экономическую ситуацию, объявлены нарушающими общечеловеческие нормы этики и морали. Приятно, граждане, наблюдать.</div>
+                         <audio id="audio" controls>
+                            <!-- <source src="img/zattibek_kpbosinli_-_amarzhan_(z2.fm).mp3" type="audio/ogg; codecs=vorbis">
+                            <source src="img/zattibek_kpbosinli_-_amarzhan_(z2.fm).mp3" type="audio/mpeg">
+                            Тег audio не поддерживается вашим браузером. 
+                            <a href="audio/music.mp3">Скачайте музыку</a>. -->
+                          </audio>
+                    </div>
+
+                    <img class="img__out--block" src="img/imginblock.png">
+                        
+                </div>
+                <div class="timer__block">
+                    <div class="timer__background"></div>
+                    <div class="timer__main_block">
+                        <div class="timer__button">
+                            <div class="timer__content">
+                                <svg onclick="playMusic(12)" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="9.00001" cy="9.00001" r="8.04762" fill="#00BBEB"/>
+                                    </svg>
+                                    <span>01:25</span>
+                                    <div>Введение в проблематику</div>
+                            </div>
+
+                        </div>
+                        <div class="timer__button">
+                            <div class="timer__content">
+                                <svg onclick="playMusic(16)" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="9.00001" cy="9.00001" r="8.04762" fill="#00BBEB"/>
+                                    </svg>
+                                    <span>15:45</span>
+                                    <div>Мнение эксперта Александра Самойлова</div>
+                            </div>
+
+                        </div>
+                        <div class="timer__button">
+                            <div class="timer__content">
+                                <svg onclick="playMusic(30)" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="9.00001" cy="9.00001" r="8.04762" fill="#00BBEB"/>
+                                    </svg>
+                                    <span>46:34</span>
+                                    <div>Пути решения этой проблемы</div>
+                            </div>
+
+                        </div>
+                        <div class="timer__button">
+                            <div class="timer__content">
+                                <svg onclick="playMusic(56)" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="9.00001" cy="9.00001" r="8.04762" fill="#00BBEB"/>
+                                    </svg>
+                                    <span>01:08:00</span>
+                                    <div>Есть ли у нас запасной план?</div>
+                            </div>
+
+                        </div>
+                        <div class="timer__button">
+                            <div class="timer__content">
+                                <svg onclick="playMusic(89)" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="9.00001" cy="9.00001" r="8.04762" fill="#00BBEB"/>
+                                    </svg>
+                                    <span>01:16:30</span>
+                                    <div>Пути решения этой проблемы</div>
+                            </div>
+
+                        </div>
+                        <div class="timer__button">
+                            <div class="timer__content">
+                                <svg  onclick="playMusic(101)" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="9.00001" cy="9.00001" r="8.04762" fill="#00BBEB"/>
+                                    </svg>
+                                    <span>01:25:30</span>
+                                    <div>Выводы</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="block__card__two">
+                    <div class="block-card_page">
+                        <div class="page-full__black"></div>
+                        <div class="page-img">
+                            <img src="img/berikEblo.jpeg">
+                            <img src="img/berikEblo.jpeg">
+                            <img src="img/berikEblo.jpeg">
+                            <img src="img/berikEblo.jpeg">
+                            <img src="img/berikEblo.jpeg">
+                            <img src="img/berikEblo.jpeg">
+                            <img src="img/berikEblo.jpeg">
+                            <img src="img/berikEblo.jpeg">
+                        </div>
+
+                    </div>
+                    <div class="main__block__card" ondblclick="doubleClick(this)">
+                        <div class="card__svg">
+                            <img src="img/svgsvgicon.svg">
+                        </div>
+                            <div class="content__card__title">
+                                <div class="title_num1">Инвестируйте в валюту</div>
+                                <div class="title_num2">Таким образом постоянный количественный рост 
+                                    и сфера нашей активности позволяет выполнять важные задания по разработке дальнейших направлений развития. </div>
+                            </div>
+                    </div>
+                    <div class="main__block__card" onfocus="">
+                        <div class="card__svg">
+                            <img src="img/svgsvgicon.svg">
+                        </div>
+                            <div class="content__card__title">
+                                <div class="title_num1">Откладывайте 15% прибыли</div>
+                                <div class="title_num2">Таким образом постоянный количественный рост 
+                                    и сфера нашей активности позволяет выполнять важные задания по разработке дальнейших направлений развития.  </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="block_for_second_button">
+                    <div class="main_block_second">
+                        <div class="block_with_img">
+                             <img class="read__girl" src="img/read__girl.png">
+                             <img class="read__girl__platform" src="img/platform__girl.png">
+                        </div>
+                        <div class="block__text__button">
+                            <span class="head__line__block__text">Кешбэк уже не в моде?</span>
+                            <span>Каждый из нас понимает очевидную вещь: дальнейшее развитие различных форм деятельности способствует повышению качества инновационных методов управления процессами. Лишь многие известные личности указаны как претенденты на роль ключевых факторов. Следует отметить, что экономическая повестка сегодняшнего дня однозначно фиксирует необходимость вывода текущих активов.</span>
+                        </div>
+                        <div class="long__text__button">
+                            <div class="block__lond__span">
+                                <span>Каждый из нас понимает очевидную вещь: новая модель организационной деятельности выявляет срочную потребность системы обучения кадров, соответствующей насущным потребностям. Для современного мира постоянный количественный рост и сфера нашей активности предопределяет высокую востребованность глубокомысленных рассуждений. В своём стремлении повысить качество жизни, они забывают, что высокое качество позиционных исследований создаёт предпосылки для вывода текущих активов. Повседневная практика показывает, что сложившаяся структура организации представляет собой интересный эксперимент проверки кластеризации усилий.
+
+                                    Также как синтетическое тестирование позволяет выполнить важные задания по разработке дальнейших направлений развития. В рамках спецификации современных стандартов, интерактивные прототипы указаны как претенденты на роль ключевых факторов.
+                                    
+                                    В частности, постоянный количественный рост и сфера нашей активности требует анализа кластеризации усилий. Понимание сути ресурсосберегающих технологий выявляет срочную потребность дальнейших направлений развития. Сложно сказать, почему акционеры крупнейших компаний неоднозначны и будут своевременно верифицированы. С учётом сложившейся международной обстановки, высококачественный прототип будущего проекта играет определяющее значение для поэтапного и последовательного развития общества. Есть над чем задуматься: явные признаки победы институционализации, превозмогая сложившуюся непростую экономическую ситуацию, указаны как претенденты на роль ключевых факторов. Синтетическое тестирование предоставляет широкие возможности для позиций, занимаемых участниками в отношении поставленных задач.</span>
+                            </div>
+                            <div class="block__span__card">
+                                <span>Каждый из нас понимает очевидную вещь: новая модель организационной деятельности выявляет срочную потребность системы обучения кадров, соответствующей насущным потребностям. Для современного мира постоянный количественный рост и сфера нашей активности предопределяет высокую востребованность глубокомысленных рассуждений. В своём стремлении повысить качество жизни, они забывают, что высокое качество позиционных исследований создаёт предпосылки для вывода текущих активов. Повседневная практика показывает, что сложившаяся структура организации представляет собой интересный эксперимент проверки кластеризации усилий.
+
+                                    Также как синтетическое тестирование позволяет выполнить важные задания по разработке дальнейших направлений развития. В рамках спецификации современных стандартов, интерактивные прототипы указаны как претенденты на роль ключевых факторов.
+                                    </span>
+                                <div class="card__button">
+                                    <div class="card__blue__back">
+
+                                    </div>
+                                    <div class="card__button_content">
+                                        <div class="summ_card">39  000 000</div>
+                                        <div class="line__card">россиян предпочли бы инвестировать средства в недвижимость</div>
+                                    </div>
+                                </div>
+                            </div>        
+                        </div>
+                    </div>
+                    <div class="block__button__end">
+                        <svg onclick="myButton(this)" class="my__button" width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="-0.5" x2="11.6726" y2="-0.5" transform="matrix(0.7282 0.685365 -0.7282 0.685365 15 21)" stroke="black"/>
+                            <line y1="-0.5" x2="11.6726" y2="-0.5" transform="matrix(-0.7282 0.685365 0.7282 0.685365 32 21)" stroke="black"/>
+                            <circle cx="23.5" cy="23.5" r="23" stroke="black"/>
+                            </svg>
+                            
+                    </div>
+                </div>
+
+            </div>
+            <div class="main__block" >
+                <div class="block__title">Банки будущего</div>
+                <div class="block__main__headline">   
+                    <div class="block__main__content">                       
+                        <div class="main__persons">
+                            <div class="block_img">
+                                <img src="img/imgperson.png">
+                                <span>Александр Пятигорский</span>
+                                <span>банк «Открытие»</span>
+                            </div>
+                            <div class="block_img">
+                                <img src="img/imgperson2.png">
+                                <span>Анна  Кузьмина</span>
+                                <span>банк 131</span>
+                            </div>
+                            <div class="block_img">
+                                <img src="img/imgperson3.png">
+                                <span>Сергей Баласанян</span>
+                                <span>Longevity Card</span>
+                            </div>
+                            <div class="block_img">
+                                <img src="img/imgperson4.png">
+                                <span>Алена Владимирсая</span>
+                                <span>Facancy</span>
+                            </div>
+                        </div>
+                        <div class="main__text__person">Противоположная точка зрения подразумевает, что интерактивные прототипы и по сей день остаются уделом либералов, которые жаждут быть обнародованы. Являясь всего лишь частью общей картины, тщательные исследования конкурентов, превозмогая сложившуюся непростую экономическую ситуацию, объявлены нарушающими общечеловеческие нормы этики и морали. Приятно, граждане, наблюдать.</div>
+                        <audio id="audio" controls>
+                            <source  type="audio/ogg; codecs=vorbis">
+                            <!-- <source  type="audio/mpeg">
+                            Тег audio не поддерживается вашим браузером. 
+                            <a href="audio/music.mp3">Скачайте музыку</a>. -->
+                          </audio>
+                    </div>
+
+                    <img class="img__out--block" src="img/imginblock.png">
+                        
+                </div>
+                <div class="timer__block">
+                    <div class="timer__background"></div>
+                    <div class="timer__main_block">
+                        <div class="timer__button">
+                            <div class="timer__content">
+                                <svg onclick="playMusic(12)" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="9.00001" cy="9.00001" r="8.04762" fill="#00BBEB"/>
+                                    </svg>
+                                    <span>01:25</span>
+                                    <div>Введение в проблематику</div>
+                            </div>
+
+                        </div>
+                        <div class="timer__button">
+                            <div class="timer__content">
+                                <svg onclick="playMusic(16)" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="9.00001" cy="9.00001" r="8.04762" fill="#00BBEB"/>
+                                    </svg>
+                                    <span>15:45</span>
+                                    <div>Мнение эксперта Александра Самойлова</div>
+                            </div>
+
+                        </div>
+                        <div class="timer__button">
+                            <div class="timer__content">
+                                <svg onclick="playMusic(30)" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="9.00001" cy="9.00001" r="8.04762" fill="#00BBEB"/>
+                                    </svg>
+                                    <span>46:34</span>
+                                    <div>Пути решения этой проблемы</div>
+                            </div>
+
+                        </div>
+                        <div class="timer__button">
+                            <div class="timer__content">
+                                <svg onclick="playMusic(56)" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="9.00001" cy="9.00001" r="8.04762" fill="#00BBEB"/>
+                                    </svg>
+                                    <span>01:08:00</span>
+                                    <div>Есть ли у нас запасной план?</div>
+                            </div>
+
+                        </div>
+                        <div class="timer__button">
+                            <div class="timer__content">
+                                <svg onclick="playMusic(89)" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="9.00001" cy="9.00001" r="8.04762" fill="#00BBEB"/>
+                                    </svg>
+                                    <span>01:16:30</span>
+                                    <div>Пути решения этой проблемы</div>
+                            </div>
+
+                        </div>
+                        <div class="timer__button">
+                            <div class="timer__content">
+                                <svg  onclick="playMusic(101)" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="9.00001" cy="9.00001" r="8.04762" fill="#00BBEB"/>
+                                    </svg>
+                                    <span>01:25:30</span>
+                                    <div>Выводы</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="block__card__two">
+                    <div class="block-card_page">
+                        <div class="page-full__black"></div>
+                        <div class="page-img">
+                            <img src="img/berikEblo.jpeg">
+                            <img src="img/berikEblo.jpeg">
+                            <img src="img/berikEblo.jpeg">
+                            <img src="img/berikEblo.jpeg">
+                            <img src="img/berikEblo.jpeg">
+                            <img src="img/berikEblo.jpeg">
+                            <img src="img/berikEblo.jpeg">
+                            <img src="img/berikEblo.jpeg">
+                        </div>
+
+                    </div>
+                    <div class="main__block__card" ondblclick="doubleClick(this)">
+                        <div class="card__svg">
+                            <img src="img/svgsvgicon.svg">
+                        </div>
+                            <div class="content__card__title">
+                                <div class="title_num1">Инвестируйте в валюту</div>
+                                <div class="title_num2">Таким образом постоянный количественный рост 
+                                    и сфера нашей активности позволяет выполнять важные задания по разработке дальнейших направлений развития. </div>
+                            </div>
+                    </div>
+                    <div class="main__block__card">
+                        <div class="card__svg">
+                            <img src="img/svgsvgicon.svg">
+                        </div>
+                            <div class="content__card__title">
+                                <div class="title_num1">Откладывайте 15% прибыли</div>
+                                <div class="title_num2">Таким образом постоянный количественный рост 
+                                    и сфера нашей активности позволяет выполнять важные задания по разработке дальнейших направлений развития.  </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="block_for_second_button">
+                    <div class="main_block_second">
+                        <div class="block_with_img">
+                             <img class="read__girl" src="img/read__girl.png">
+                             <img class="read__girl__platform" src="img/platform__girl.png">
+                        </div>
+                        <div class="block__text__button">
+                            <span class="head__line__block__text">Кешбэк уже не в моде?</span>
+                            <span>Каждый из нас понимает очевидную вещь: дальнейшее развитие различных форм деятельности способствует повышению качества инновационных методов управления процессами. Лишь многие известные личности указаны как претенденты на роль ключевых факторов. Следует отметить, что экономическая повестка сегодняшнего дня однозначно фиксирует необходимость вывода текущих активов.</span>
+                        </div>
+                        <div class="long__text__button">
+                            <div class="block__lond__span">
+                                <span>Каждый из нас понимает очевидную вещь: новая модель организационной деятельности выявляет срочную потребность системы обучения кадров, соответствующей насущным потребностям. Для современного мира постоянный количественный рост и сфера нашей активности предопределяет высокую востребованность глубокомысленных рассуждений. В своём стремлении повысить качество жизни, они забывают, что высокое качество позиционных исследований создаёт предпосылки для вывода текущих активов. Повседневная практика показывает, что сложившаяся структура организации представляет собой интересный эксперимент проверки кластеризации усилий.
+
+                                    Также как синтетическое тестирование позволяет выполнить важные задания по разработке дальнейших направлений развития. В рамках спецификации современных стандартов, интерактивные прототипы указаны как претенденты на роль ключевых факторов.
+                                    
+                                    В частности, постоянный количественный рост и сфера нашей активности требует анализа кластеризации усилий. Понимание сути ресурсосберегающих технологий выявляет срочную потребность дальнейших направлений развития. Сложно сказать, почему акционеры крупнейших компаний неоднозначны и будут своевременно верифицированы. С учётом сложившейся международной обстановки, высококачественный прототип будущего проекта играет определяющее значение для поэтапного и последовательного развития общества. Есть над чем задуматься: явные признаки победы институционализации, превозмогая сложившуюся непростую экономическую ситуацию, указаны как претенденты на роль ключевых факторов. Синтетическое тестирование предоставляет широкие возможности для позиций, занимаемых участниками в отношении поставленных задач.</span>
+                            </div>
+                            <div class="block__span__card">
+                                <span>Каждый из нас понимает очевидную вещь: новая модель организационной деятельности выявляет срочную потребность системы обучения кадров, соответствующей насущным потребностям. Для современного мира постоянный количественный рост и сфера нашей активности предопределяет высокую востребованность глубокомысленных рассуждений. В своём стремлении повысить качество жизни, они забывают, что высокое качество позиционных исследований создаёт предпосылки для вывода текущих активов. Повседневная практика показывает, что сложившаяся структура организации представляет собой интересный эксперимент проверки кластеризации усилий.
+
+                                    Также как синтетическое тестирование позволяет выполнить важные задания по разработке дальнейших направлений развития. В рамках спецификации современных стандартов, интерактивные прототипы указаны как претенденты на роль ключевых факторов.
+                                    </span>
+                                <div class="card__button">
+                                    <div class="card__blue__back">
+
+                                    </div>
+                                    <div class="card__button_content">
+                                        <div class="summ_card">39  000 000</div>
+                                        <div class="line__card">россиян предпочли бы инвестировать средства в недвижимость    </div>
+                                            </div>
+                                </div>
+                            </div>        
+                        </div>
+                    </div>
+                    <div class="block__button__end">
+                        <svg onclick="myButton(this)" class="my__button" width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="-0.5" x2="11.6726" y2="-0.5" transform="matrix(0.7282 0.685365 -0.7282 0.685365 15 21)" stroke="black"/>
+                            <line y1="-0.5" x2="11.6726" y2="-0.5" transform="matrix(-0.7282 0.685365 0.7282 0.685365 32 21)" stroke="black"/>
+                            <circle cx="23.5" cy="23.5" r="23" stroke="black"/>
+                            </svg>
+                            
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+<footer>
+    <div class="footer__button" onclick="footerButton(this)"> </div>
+</footer>
+    <script src="main.js"></script>
+</body>
+</html>
